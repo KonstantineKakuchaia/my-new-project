@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1150px;
+  height: 190px;
+  background-color: white;
+  border-radius: 20px;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.company img {
+  height: 70px;
+  width: 70px;
+}
+.company p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.flyTime {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+}
+.flyTime p {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.flyTimeVisual {
+  display: flex;
+  width: 450px;
+  align-items: center;
+  gap: 20px;
+}
+.flyTimeVisual p {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.line {
+  position: relative;
+  width: 180px;
+  height: 2px;
+  background-color: red;
+}
+.oneMark {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border: 1px black solid;
+  background-color: lightgrey;
+  left: 85px;
+  top: -6px;
+}
+.twoMark {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border: 1px black solid;
+  background-color: lightgrey;
+  left: 40px;
+  top: -6px;
+}
+.threeMark {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border: 1px black solid;
+  background-color: lightgrey;
+  right: 40px;
+  top: -6px;
+}
+.priceSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 170px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px #424244 solid;
+}
+.price p {
+  font-size: 24px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.priceSection button {
+  width: 170px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #ff8c3e;
+  border: none;
+  color: #424244;
+  font-size: 20px;
+}
+.priceSection button {
+  cursor: pointer;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 800px;
+  }
+
+  .company img {
+    height: 40px;
+    width: 40px;
+  }
+  .company p {
+    font-size: 15px;
+  }
+  .flyTime {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .flyTime p {
+    font-size: 18px;
+  }
+
+  .flyTimeVisual p {
+    font-size: 18px;
+  }
+
+  .price p {
+    font-size: 18px;
+    margin: 0px;
+  }
+  .priceSection button {
+    width: 170px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #ff8c3e;
+    border: none;
+    color: #424244;
+    font-size: 20px;
+  }
+}

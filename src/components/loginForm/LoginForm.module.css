@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1924px;
+  padding-top: 100px;
+}
+.head {
+  max-width: 1924px;
+  height: 100px;
+  background-color: #eae9e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 170px;
+}
+.loginWindow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 70px;
+  background-color: white;
+}
+.loginWindow p {
+  margin: 0px 0px 0px 20px;
+  gap: 10px;
+  font-size: 16px;
+  color: #424244;
+}
+.loginWindow input {
+  width: 400px;
+  border-radius: 17px;
+  border-style: solid;
+  border-color: #ff6700;
+  font-size: 20px;
+  padding: 20px;
+}
+.socMediaItems {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  border-top: 0.7px solid black;
+  border-bottom: 0.7px solid black;
+  position: relative;
+}
+.socMediaItems span {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.element {
+  position: absolute;
+  padding: 3px 11px;
+  background-color: white;
+  top: -15px;
+  left: 135px;
+  font-size: 16px;
+  color: #424244;
+}
+.highlight {
+  color: #c85100;
+  font-size: 16px;
+}
+.policy {
+  width: 400px;
+  display: flex;
+}
+.policy p {
+  margin: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.popUpInput {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  left: 500px;
+  background-color: white;
+  width: 830px;
+  height: 500px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+.collections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.collections h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.collections p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.popUpBtn {
+  width: 400px;
+  height: 50px;
+  color: white;
+  background-color: #ff6700;
+  border: 0px;
+  border-radius: 20px;
+}

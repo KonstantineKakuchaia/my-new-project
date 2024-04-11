@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1924px;
+  padding: 60px 170px;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 60px 0px;
+}
+.navList li {
+  padding: 15px 30px;
+  font-size: 24px;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.travelFilter {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.travelFilter div {
+  display: flex;
+  align-items: last baseline;
+  gap: 15px;
+  cursor: pointer;
+}
+.travelFilter p {
+  font-size: 20px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.travelFilter span {
+  height: 20px;
+  width: 20px;
+  border: solid #424244;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.optionFilter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  gap: 25px;
+}
+.optionFilter input {
+  width: 370px;
+  height: 30px;
+  border: 2px solid #ff6700;
+  border-radius: 20px;
+  padding: 20px 25px;
+  font-size: 18px;
+}
+.optionFilter div {
+  position: relative;
+}
+
+.navList li:hover {
+  background-color: #ff6700;
+  color: white;
+}
+.optionFilter div {
+  position: relative;
+}
+.optionFilter div img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+.flyItem {
+  height: 1770px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: hidden;
+}
+.flyItemOpen {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: hidden;
+}
+.mainInfo {
+  max-width: 1920px;
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 1600px) {
+  .container {
+    padding: 30px 100px;
+    overflow-x: auto;
+  }
+  .navList {
+    width: auto; /* Set width to auto to prevent horizontal scrollbar */
+    overflow-x: auto; /* Allow horizontal scrolling for small screens */
+  }
+  .navList li {
+    margin-top: 60px; /* Adjust padding to accommodate smaller screens */
+  }
+  .optionFilter {
+    gap: 10px;
+  }
+  .optionFilter input {
+    width: 250px;
+    height: 30px;
+  }
+}

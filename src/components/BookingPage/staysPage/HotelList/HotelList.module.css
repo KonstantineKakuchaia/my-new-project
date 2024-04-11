@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  width: 1120px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 30px;
+  column-gap: 20px;
+}
+.hotelImg {
+  width: 380px;
+  height: 285px;
+  border: 10px;
+}
+.contentFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.content {
+  display: flex;
+  width: 721px;
+  align-self: center;
+}
+.content div {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  gap: 20px;
+}
+.content div h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0px;
+}
+.content div h3 {
+  font-weight: 500;
+  margin: 0px;
+}
+.content div h4 {
+  font-weight: 400;
+  margin: 0px;
+}
+.content p {
+  font-size: 16px;
+  margin: 0px;
+  width: 360px;
+  font-weight: 400;
+  margin: 0px;
+}
+.priceSide {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 30px;
+}
+.priceSide p {
+  text-align: right;
+  margin: 0px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.hottelListbutton {
+  background-color: #ff6700;
+  height: 60px;
+  width: 721px;
+  border-radius: 20px;
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+.hottelListbutton:hover {
+  background-color: #c85100;
+}
+@media (max-width: 1600px) {
+  .container {
+    width: 800px;
+  }
+  .contentFlex {
+    width: 400px;
+  }
+  .content {
+    width: 400px;
+  }
+  .content div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+  }
+  .content div h2 {
+    margin: 0px;
+    font-size: 20px;
+  }
+  .content div h3 {
+    margin: 0px;
+    font-size: 15px;
+  }
+  .content div h4 {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .content p {
+    font-size: 16px;
+    margin: 0px;
+    font-size: 14px;
+    width: 150px;
+  }
+  .hottelListbutton {
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+  }
+}

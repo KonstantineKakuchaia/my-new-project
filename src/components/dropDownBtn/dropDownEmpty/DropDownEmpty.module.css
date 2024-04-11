@@ -1,0 +1,94 @@
+.dropDownClose {
+  width: 340px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 30px;
+}
+.dropDownOpen {
+  width: 340px;
+  height: 90px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 0;
+  padding: 0px 30px;
+}
+.DropDownCard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.dropDownInput {
+  width: 500px;
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+}
+.dropDownArrow {
+  border: solid #424244;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 9px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropDownArrowUp {
+  border: solid #424244;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 9px;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+.dropDownMenu {
+  z-index: 5;
+  top: 100px;
+  height: auto;
+  width: 340px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 30px;
+}
+.dropDownMenu ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+.dropDownMenu ul li {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 20px;
+}
+.dropDownMenu ul li p {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dropDownMenu input {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+@media (max-width: 1600px) {
+  .dropDownClose {
+    width: 300px;
+  }
+  .dropDownOpen {
+    width: 300px;
+  }
+}

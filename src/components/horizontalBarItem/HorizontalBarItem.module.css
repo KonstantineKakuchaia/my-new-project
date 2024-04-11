@@ -1,0 +1,26 @@
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  width: 380px;
+  gap: 10px;
+}
+.itemCard img {
+  width: auto;
+  height: auto;
+}
+.itemCard h3 {
+  font-size: 32px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.itemCard p {
+  width: auto;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

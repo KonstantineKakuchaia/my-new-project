@@ -1,0 +1,50 @@
+.container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  background-color: white;
+  border-radius: 20px;
+}
+.container ul {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 380px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 30px;
+  gap: 10px;
+}
+.container ul li {
+  width: 200px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 20px;
+}
+.container input {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.container p {
+  font-size: 24px;
+  margin: 0px;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 300px;
+  }
+  .container ul {
+    width: 220px;
+  }
+  .container ul li p {
+    width: auto;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1180px;
+  padding: 20px;
+}
+.mainHead {
+  display: flex;
+  justify-content: space-between;
+}
+.collection {
+  display: flex;
+  gap: 20px;
+}
+.secColection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.thirdColection {
+  display: flex;
+  gap: 20px;
+}
+.mineImg {
+  width: 780px;
+  height: 430px;
+}
+.btnSection {
+  display: flex;
+  gap: 20px;
+}
+.priceBtn {
+  width: 280px;
+  height: 43px;
+  background-color: white;
+  border: 1px #ff6700 solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnSection div {
+  display: flex;
+  gap: 20px;
+}
+.bookBtn {
+  width: 580px;
+  height: 43px;
+  border: 0px;
+  background-color: #ff6700;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.info {
+  max-width: 1150px;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    max-width: 800px;
+    overflow-x: auto;
+  }
+  .thirdColection {
+    display: none;
+  }
+  .collection {
+    flex-direction: column;
+  }
+  .secColection {
+    flex-direction: row;
+  }
+  .btnSection {
+    flex-wrap: wrap;
+  }
+  .priceBtn {
+    width: 380px;
+    height: 54px;
+  }
+  .bookBtn {
+    width: 780px;
+    height: 54px;
+  }
+  .info {
+    max-width: 800px;
+  }
+  .mainHead {
+    max-width: 800px;
+  }
+}

@@ -1,0 +1,74 @@
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 8;
+}
+.itemList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1924px;
+  background-color: transparent;
+  padding: 35px 170px;
+}
+.itemlistScroll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1924px;
+  background-color: #eae9e9;
+  padding: 35px 170px;
+}
+
+.itemList {
+  cursor: pointer;
+}
+.container ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.container ul button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.loginDropDown {
+  position: absolute;
+  display: flex;
+  top: 120px;
+  right: 170px;
+  background-color: white;
+  flex-direction: column;
+  width: 267px;
+  height: auto;
+  border-radius: 10px;
+  padding: 30px;
+  gap: 10px;
+}
+.loginDropDown button {
+  padding: 0px 15px 15px 15px;
+  border-bottom: 2px solid #ff6700;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  font-size: 24px;
+  cursor: pointer;
+}

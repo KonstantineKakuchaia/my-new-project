@@ -1,0 +1,61 @@
+.container {
+  max-width: 1924px;
+  padding: 60px 170px;
+  gap: 10px;
+  position: relative;
+}
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1924px;
+}
+.container h2 {
+  margin-top: 0px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.container h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.container p {
+  font-size: 20px;
+  max-width: 1500px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.popUp {
+  text-align: right;
+  margin: 10px;
+  color: red;
+}
+.popUpInput {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  left: 400px;
+  background-color: white;
+  width: 930px;
+  height: 600px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.collections img {
+  width: 180px;
+  height: 190px;
+}

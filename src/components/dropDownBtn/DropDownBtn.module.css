@@ -1,0 +1,88 @@
+.dropDownClose {
+  width: 750px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dropDownOpen {
+  width: 750px;
+  height: 100px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 0;
+}
+.DropDownCard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.dropDownInput {
+  width: 500px;
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+}
+.dropDownArrow {
+  border: solid #424244;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 9px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropDownArrowUp {
+  border: solid #424244;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 9px;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+.dropDownMenu {
+  position: absolute;
+  z-index: 5;
+  top: 100px;
+  height: 544px;
+  width: 750px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.dropDownMenu ul {
+  max-height: 500px;
+  list-style: none;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 15px 50px 25px;
+  margin-top: 0px;
+}
+.dropDownMenu ul {
+  border-bottom: #424244;
+  font-size: 28px;
+  color: #424244;
+}
+@media (max-width: 1600px) {
+  .dropDownClose {
+    width: 530px;
+  }
+  .dropDownOpen {
+    width: 530px;
+  }
+  .dropDownInput {
+    width: 400px;
+  }
+  .dropDownMenu {
+    width: 530px;
+  }
+  .dropDownMenu ul {
+    width: 430px;
+  }
+}

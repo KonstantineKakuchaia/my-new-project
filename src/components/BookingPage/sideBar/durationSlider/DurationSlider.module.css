@@ -1,0 +1,50 @@
+/* PriceSlider.css */
+.priceSlider {
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  border: none;
+  background: #c85100;
+  outline: none;
+  height: 4px;
+  margin: 10px 0px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #c85100;
+  border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border-color: #c85100;
+  border-radius: 50%;
+}
+
+.priceRangeWindow span {
+  margin: 10px 0px;
+  font-size: 20px;
+  color: #424244;
+}
+.priceRangeWindow p {
+  font-size: 24px;
+}
+
+.priceRange {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

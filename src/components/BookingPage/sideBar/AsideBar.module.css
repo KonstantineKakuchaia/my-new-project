@@ -1,0 +1,60 @@
+.container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.options {
+  width: 380px;
+  height: 219px;
+  background-color: white;
+  gap: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.options p {
+  margin: 0px;
+  padding: 18px 18px 18px 0px;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.quickest {
+  border-top: 2px #ff6700 solid;
+  border-bottom: 2px #ff6700 solid;
+  display: inline-block;
+}
+.filterSecion {
+  width: 380px;
+  height: auto;
+  border-radius: 20px;
+  background-color: white;
+}
+.filters {
+  width: 410px;
+  background-color: white;
+  border-radius: 10px;
+}
+.cardSpan {
+  display: flex;
+  width: 350px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.paymentList {
+  display: flex;
+  flex-direction: column;
+}
+.paymentList input {
+  border-radius: 0px;
+}
+
+@media (max-width: 1600px) {
+  .options {
+    width: 350px;
+  }
+  .filters {
+    width: 350px;
+  }
+}

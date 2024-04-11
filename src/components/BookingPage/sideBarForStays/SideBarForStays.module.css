@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  background-color: white;
+  border-radius: 20px;
+}
+.container h3 {
+  width: 220px;
+  border-bottom: 2px #ff6700 solid;
+  font-size: 28px;
+  margin: 0px;
+  padding: 20px 30px;
+}
+.starsHotel {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+}
+.starsHotel ul {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 30px;
+  gap: 10px;
+}
+.starsHotel ul li {
+  width: 200px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 20px;
+}
+.starsHotel ul li p {
+  margin: 0px;
+}
+.starsHotel input {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 300px;
+  }
+  .starsHotel {
+    width: 300px;
+  }
+  .starsHotel ul {
+    width: 220px;
+  }
+  .starsHotel ul li p {
+    width: auto;
+    font-size: 20px;
+    margin: 0px;
+  }
+}

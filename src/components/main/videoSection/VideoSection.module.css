@@ -1,0 +1,17 @@
+.container {
+  max-width: 1924px;
+  padding: 60px 170px;
+  gap: 10px;
+}
+.container h2 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.container video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 40px;
+}

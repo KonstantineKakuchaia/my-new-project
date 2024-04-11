@@ -1,0 +1,65 @@
+.scrollWindow {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1924px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 170px;
+  gap: 10px;
+}
+.container h2 {
+  margin-top: 0px;
+  font-size: 40px;
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.contentBox {
+  display: flex;
+  gap: 20px;
+}
+.contentBox div {
+  gap: 10px;
+}
+.contentBox div h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0px;
+  font-size: 32px;
+}
+.contentBox div p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0px;
+  font-size: 24px;
+}
+.actionBtns {
+  display: flex;
+  justify-content: space-between;
+}
+.actionBtns button {
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+.arrowRight {
+  border: solid #424244;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 9px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.arrowLeft {
+  border: solid #424244;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 9px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
