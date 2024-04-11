@@ -62,11 +62,11 @@ function RegistrationForm(props) {
   return (
     <>
       <div className={style.head}>
-        <Link to="/">
+        {/* <Link to="/">
           <img style={{ cursor: "pointer" }} src={img1} alt="" />
         </Link>
 
-        <img src={img2} alt="" />
+        <img src={img2} alt="" /> */}
       </div>
       <section className={style.container}>
         <div className={style.loginWindow}>
